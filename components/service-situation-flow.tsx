@@ -26,9 +26,9 @@ export function ServiceSituationFlow({ copy }: { copy: TranslationDictionary["se
       href: "/diensten/bouwschoonmaak",
       label: "Meer over bouwschoonmaak",
     },
-    "Industriele schoonmaak": {
+    "Industriële schoonmaak": {
       href: "/diensten/industriele-schoonmaak",
-      label: "Meer over industriele schoonmaak",
+      label: "Meer over industriële schoonmaak",
     },
     Dieptereiniging: {
       href: "/diensten/dieptereiniging",

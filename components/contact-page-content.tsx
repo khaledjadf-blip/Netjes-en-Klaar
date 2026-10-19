@@ -45,7 +45,7 @@ const content = {
       contact: "Telefoon of e-mail",
       contactPlaceholder: "Hoe bereiken we je het snelst?",
       services: "Welke dienst past het best?",
-      serviceOptions: ["Kantoorschoonmaak", "Vakantieparken", "Evenementenreiniging", "Bouwschoonmaak", "Industriele schoonmaak", "Dieptereiniging"],
+      serviceOptions: ["Kantoorschoonmaak", "Vakantieparken", "Evenementenreiniging", "Bouwschoonmaak", "Industriële schoonmaak", "Dieptereiniging"],
       requestType: "Wat zoek je precies?",
       requestTypeOptions: ["Eenmalige schoonmaak", "Vaste schoonmaak", "Wisselschoonmaak", "Spoed of korte termijn", "We willen even overleggen"],
       location: "Locatie",

@@ -1,5 +1,8 @@
 export const businessInfo = {
   name: "Netjes & Klaar",
+  legalName: "Netjes & Klaar B.V.",
+  kvkNumber: "42116803",
+  vatNumber: "NL869805381B01",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.netjesenklaar.nl",
   phoneDisplay: "06 45079181",
   phoneHref: "tel:+31645079181",
@@ -13,7 +16,7 @@ export const businessInfo = {
     "Vakantiepark schoonmaak",
     "Evenementenreiniging",
     "Bouwschoonmaak",
-    "Industriele schoonmaak",
+    "Industriële schoonmaak",
     "Dieptereiniging",
   ],
   trustPoints: [

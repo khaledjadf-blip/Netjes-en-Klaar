@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { CleanWaveDivider } from "@/components/clean-wave-divider";
 import { ContactCtaSection } from "@/components/contact-cta-section";
@@ -18,6 +18,7 @@ const languageStorageKey = "netjes-en-klaar-language";
 export function HomeLanguageShell() {
   const [language, setLanguage] = useState<Language>("nl");
   const copy = translations[language];
+  const hasLoadedStoredLanguage = useRef(false);
 
   useEffect(() => {
     const stored = window.localStorage.getItem(languageStorageKey);
@@ -27,6 +28,11 @@ export function HomeLanguageShell() {
   }, []);
 
   useEffect(() => {
+    // Skip the first run so the default "nl" doesn't overwrite the stored choice before it is applied.
+    if (!hasLoadedStoredLanguage.current) {
+      hasLoadedStoredLanguage.current = true;
+      return;
+    }
     window.localStorage.setItem(languageStorageKey, language);
     document.documentElement.lang = language;
     document.documentElement.dir = copy.dir;
@@ -37,6 +43,9 @@ export function HomeLanguageShell() {
       "@context": "https://schema.org",
       "@type": "CleaningService",
       name: businessInfo.name,
+      legalName: businessInfo.legalName,
+      vatID: businessInfo.vatNumber,
+      identifier: { "@type": "PropertyValue", propertyID: "KvK", value: businessInfo.kvkNumber },
       description: copy.meta.schemaDescription,
       telephone: businessInfo.phoneHref.replace("tel:", ""),
       email: businessInfo.email,
