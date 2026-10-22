@@ -58,20 +58,20 @@ export function SiteFooter() {
   }, []);
 
   return (
-    <footer dir={language === "ar" ? "rtl" : "ltr"} className="fresh-shell relative z-10 pb-24 pt-10 sm:pb-12">
+    <footer dir={language === "ar" ? "rtl" : "ltr"} className="fresh-shell relative z-10 pb-24 pt-10">
       <div className="grid gap-8 border-t border-fresh-blue/20 pt-8 text-sm leading-7 text-fresh-ink/75 md:grid-cols-3">
         <div>
-          <p className="latin-inline font-semibold text-fresh-ink">{businessInfo.legalName}</p>
+          <p className="font-semibold text-fresh-ink"><span className="latin-inline">{businessInfo.legalName}</span></p>
           <p>{copy.serviceArea}</p>
         </div>
 
         <div>
           <p className="font-semibold text-fresh-ink">{copy.contact}</p>
-          <a href={businessInfo.phoneHref} className="latin-inline block transition hover:text-fresh-blue">
-            {businessInfo.phoneDisplay}
+          <a href={businessInfo.phoneHref} className="block w-fit transition hover:text-fresh-blue">
+            <span className="latin-inline">{businessInfo.phoneDisplay}</span>
           </a>
-          <a href={`mailto:${businessInfo.email}`} className="latin-inline block transition hover:text-fresh-blue">
-            {businessInfo.email}
+          <a href={`mailto:${businessInfo.email}`} className="block w-fit transition hover:text-fresh-blue">
+            <span className="latin-inline">{businessInfo.email}</span>
           </a>
         </div>
 
