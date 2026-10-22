@@ -29,7 +29,7 @@ export async function POST(request: Request) {
   const copy =
     lang === "ar"
       ? {
-          fileTooLarge: "السيرة الذاتية كبيرة جداً. اجعل الملف أقل من 5 ميغابايت.",
+          fileTooLarge: "السيرة الذاتية كبيرة جداً. اجعل الملف أقل من 4 ميغابايت.",
           required: "يرجى إدخال الاسم ووسيلة التواصل ومكان السكن على الأقل.",
           notConfigured:
             "نموذج التوظيف غير مربوط بالإرسال بعد. يمكنك الاتصال بنا أو مراسلتنا مباشرة وسنساعدك بشكل صحيح.",
@@ -56,7 +56,7 @@ export async function POST(request: Request) {
           noMessage: "لا توجد رسالة إضافية",
         }
       : {
-          fileTooLarge: "Je CV is te groot. Houd het bestand onder 5 MB.",
+          fileTooLarge: "Je CV is te groot. Houd het bestand onder 4 MB.",
           required: "Vul in ieder geval naam, contact en woonplaats in.",
           notConfigured:
             "De sollicitatie is nog niet gekoppeld voor verzending. Bel of mail ons direct, dan zorgen we dat je goed terechtkomt.",
@@ -86,7 +86,7 @@ export async function POST(request: Request) {
   const cv = formData.get("cv");
   const cvFile = cv instanceof File && cv.size > 0 ? cv : null;
 
-  if (cvFile && cvFile.size > 5 * 1024 * 1024) {
+  if (cvFile && cvFile.size > 4 * 1024 * 1024) {
     return NextResponse.json({ ok: false, message: copy.fileTooLarge }, { status: 400 });
   }
 

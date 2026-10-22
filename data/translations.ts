@@ -114,11 +114,11 @@ export const translations: Record<Language, TranslationDictionary> = {
     lang: "nl",
     dir: "ltr",
     meta: {
-      title: "Netjes & Klaar | Commerciele schoonmaak voor kantoren, vakantieparken, industrie en events",
+      title: "Netjes & Klaar | Commerciële schoonmaak voor kantoren, vakantieparken, industrie en events",
       description:
-        "Netjes & Klaar verzorgt commerciele schoonmaak, dieptereiniging, bouwopleveringen en reiniging van productieomgevingen in Nederland. Heldere planning, duidelijke takenlijsten en vaste aanspreekpunten.",
+        "Netjes & Klaar verzorgt commerciële schoonmaak, dieptereiniging, bouwopleveringen en reiniging van productieomgevingen in Nederland. Heldere planning, duidelijke takenlijsten en vaste aanspreekpunten.",
       schemaDescription:
-        "Commerciele schoonmaak, dieptereiniging, bouwopleveringen en reiniging van productieomgevingen met heldere planning en vaste aanspreekpunten.",
+        "Commerciële schoonmaak, dieptereiniging, bouwopleveringen en reiniging van productieomgevingen met heldere planning en vaste aanspreekpunten.",
       availableLanguages: ["Dutch", "Arabic"],
     },
     nav: {
@@ -188,7 +188,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         },
         {
           label: "Industrieel",
-          service: "Industriele schoonmaak",
+          service: "Industriële schoonmaak",
           summary: "Voor productie- en fabrieksomgevingen waar veiligheid, zones en vaste werkafspraken zwaar meewegen.",
           bestFor: "Productiehallen, fabrieken, logistieke zones, technische ruimtes en verwerkingsomgevingen.",
           planning: "Afgestemd op ploegendienst, stilstandmomenten, veiligheidsregels en reiniging per zone.",
@@ -241,7 +241,7 @@ export const translations: Record<Language, TranslationDictionary> = {
         { question: "Kunnen jullie vakantieparken op wisseldagen schoonmaken?", answer: "Ja. We plannen op check-in tijden en werken met controles per woning, chalet of bungalow." },
         { question: "Nemen jullie materialen mee?", answer: "Dat kan. We stemmen vooraf af of we met eigen materialen werken of met middelen op locatie." },
         { question: "Hoe maken jullie de planning duidelijk?", answer: "Vooraf leggen we het tijdvak, team, takenlijst en contactpersoon vast zodat iedereen weet wat er gebeurt." },
-        { question: "Doen jullie ook industriele schoonmaak?", answer: "Ja. Voor productieomgevingen stemmen we af op veiligheid, zones, werkvolgorde en momenten waarop het team toegang heeft." },
+        { question: "Doen jullie ook industriële schoonmaak?", answer: "Ja. Voor productieomgevingen stemmen we af op veiligheid, zones, werkvolgorde en momenten waarop het team toegang heeft." },
         { question: "Doen jullie ook dieptereiniging?", answer: "Ja. Dieptereiniging is geschikt voor achterstallige schoonmaak, keukens, sanitair, vloeren en ruimtes die weer echt grondig fris moeten worden." },
       ],
     },

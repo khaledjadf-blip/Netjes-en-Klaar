@@ -14,7 +14,7 @@ const content = {
     title: "Schoon werk begint met goede mensen.",
     body: "Heb je ervaring in schoonmaak, facilitair werk of productieomgevingen? Stuur een open sollicitatie of laat direct zien waar je inzetbaar bent.",
     fitTitle: "Past goed bij",
-    fitBody: "Schoonmaakmedewerkers, meewerkend voormannen, mensen met ervaring in vakantieparken, kantoorschoonmaak, bouwoplevering of industriele schoonmaak.",
+    fitBody: "Schoonmaakmedewerkers, meewerkend voormannen, mensen met ervaring in vakantieparken, kantoorschoonmaak, bouwoplevering of industriële schoonmaak.",
   },
   ar: {
     kicker: "العمل معنا",

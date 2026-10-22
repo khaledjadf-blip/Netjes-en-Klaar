@@ -3,23 +3,24 @@ import Script from "next/script";
 
 import { CookieConsent } from "@/components/cookie-consent";
 import { FloatingWhatsAppButton } from "@/components/floating-whatsapp-button";
+import { SiteFooter } from "@/components/site-footer";
 import { businessInfo } from "@/data/site-content";
 
 import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(businessInfo.siteUrl),
-  title: "Netjes & Klaar | Commerciele schoonmaak, dieptereiniging en industriele reiniging",
+  title: "Netjes & Klaar | Commerciële schoonmaak, dieptereiniging en industriële reiniging",
   description:
-    "Netjes & Klaar verzorgt commerciele schoonmaak voor kantoren, vakantieparken, evenementen, bouwopleveringen, dieptereiniging en productieomgevingen in Nederland. Heldere planning, duidelijke takenlijsten en vaste aanspreekpunten.",
+    "Netjes & Klaar verzorgt commerciële schoonmaak voor kantoren, vakantieparken, evenementen, bouwopleveringen, dieptereiniging en productieomgevingen in Nederland. Heldere planning, duidelijke takenlijsten en vaste aanspreekpunten.",
   keywords: [
     "schoonmaakbedrijf",
-    "commerciele schoonmaak",
+    "commerciële schoonmaak",
     "kantoorschoonmaak",
     "vakantiepark schoonmaak",
     "evenementenreiniging",
     "bouwschoonmaak",
-    "industriele schoonmaak",
+    "industriële schoonmaak",
     "fabriek schoonmaak",
     "dieptereiniging",
     "facilitaire schoonmaak",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   applicationName: "Netjes & Klaar",
   category: "business",
   openGraph: {
-    title: "Netjes & Klaar | Commerciele schoonmaak voor bedrijven en locaties",
+    title: "Netjes & Klaar | Commerciële schoonmaak voor bedrijven en locaties",
     description:
       "Schoonmaak voor kantoren, vakantieparken, evenementen, bouwopleveringen, dieptereiniging en productieomgevingen in Nederland met duidelijke planning en terugkoppeling.",
     url: businessInfo.siteUrl,
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Netjes & Klaar | Commerciele schoonmaak voor bedrijven en locaties",
+    title: "Netjes & Klaar | Commerciële schoonmaak voor bedrijven en locaties",
     description:
       "Schoonmaak voor kantoren, vakantieparken, evenementen, bouwopleveringen, dieptereiniging en productieomgevingen in Nederland.",
   },
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="nl" suppressHydrationWarning>
       <body>
         {children}
+        <SiteFooter />
         <CookieConsent />
         <FloatingWhatsAppButton />
       </body>

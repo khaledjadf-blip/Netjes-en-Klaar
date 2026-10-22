@@ -19,7 +19,7 @@ const content = {
       {
         title: "1. Wie is verantwoordelijk?",
         body: [
-          `Deze website hoort bij ${businessInfo.name}. Voor vragen over privacy of gegevensverwerking kun je contact opnemen via ${businessInfo.email} of ${businessInfo.phoneDisplay}.`,
+          `Deze website hoort bij ${businessInfo.legalName} (KvK ${businessInfo.kvkNumber}). Voor vragen over privacy of gegevensverwerking kun je contact opnemen via ${businessInfo.email} of ${businessInfo.phoneDisplay}.`,
         ],
       },
       {
@@ -72,7 +72,7 @@ const content = {
       {
         title: "1. من المسؤول؟",
         body: [
-          `هذا الموقع تابع لـ ${businessInfo.name}. إذا كانت لديك أسئلة حول الخصوصية أو معالجة البيانات، يمكنك التواصل عبر ${businessInfo.email} أو ${businessInfo.phoneDisplay}.`,
+          `هذا الموقع تابع لـ ${businessInfo.legalName} (رقم غرفة التجارة KvK: ${businessInfo.kvkNumber}). إذا كانت لديك أسئلة حول الخصوصية أو معالجة البيانات، يمكنك التواصل عبر ${businessInfo.email} أو ${businessInfo.phoneDisplay}.`,
         ],
       },
       {

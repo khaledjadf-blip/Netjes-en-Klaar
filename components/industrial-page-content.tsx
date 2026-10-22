@@ -10,7 +10,7 @@ const languageChangeEvent = "netjes-en-klaar-language-change";
 
 const content = {
   nl: {
-    kicker: "Industriele schoonmaak",
+    kicker: "Industriële schoonmaak",
     title: "Schoonmaak voor productieomgevingen waar veiligheid en ritme meewegen.",
     body: "Voor fabrieken, productiehallen en technische ruimtes is schoonmaak niet zomaar een extra ronde. Het moet passen binnen werkzones, looproutes, veiligheidsafspraken en momenten waarop het team toegang heeft.",
     points: [
@@ -28,18 +28,18 @@ const content = {
       },
     ],
     suitable: "Geschikt voor",
-    suitableBody: "Productiehallen, fabrieken, logistieke zones, technische ruimtes, verwerkingsruimtes en locaties waar vaste veiligheids- of hygieneregels gelden.",
+    suitableBody: "Productiehallen, fabrieken, logistieke zones, technische ruimtes, verwerkingsruimtes en locaties waar vaste veiligheids- of hygiëneregels gelden.",
     approach: "Praktische aanpak",
     approachBody: "We stemmen vooraf af welke zones gereinigd worden, hoe vaak, met welk team en op welke momenten. Zo blijft de planning werkbaar voor beheer en operatie.",
     cta: "Bespreek je locatie",
     back: "Terug naar home",
     faq: [
       {
-        q: "Is fabriek schoonmaak hetzelfde als industriele schoonmaak?",
-        a: "In de praktijk zoeken veel bedrijven op beide termen. Voor de website is industriele schoonmaak meestal breder en sterker, omdat het ook productiehallen, technische ruimtes en logistieke zones dekt.",
+        q: "Is fabriek schoonmaak hetzelfde als industriële schoonmaak?",
+        a: "Grotendeels wel. Industriële schoonmaak is alleen wat breder: naast de fabrieksvloer gaat het ook om productiehallen, technische ruimtes en logistieke zones.",
       },
       {
-        q: "Kunnen jullie rekening houden met voedselveiligheid of strakke hygieneregels?",
+        q: "Kunnen jullie rekening houden met voedselveiligheid of strakke hygiëneregels?",
         a: "Ja. Waar nodig stemmen we het schoonmaakniveau af op de regels en werkwijze van de locatie, inclusief zones, materialen en momenten waarop gereinigd mag worden.",
       },
       {
@@ -75,7 +75,7 @@ const content = {
     faq: [
       {
         q: "هل تنظيف المصانع هو نفسه التنظيف الصناعي؟",
-        a: "عملياً تبحث كثير من الشركات عن المصطلحين. لكن على الموقع يكون التنظيف الصناعي أوسع وأقوى لأنه يشمل أيضاً قاعات الإنتاج والغرف التقنية والمناطق اللوجستية.",
+        a: "إلى حد كبير نعم. لكن التنظيف الصناعي أشمل قليلاً، فهو لا يقتصر على أرضية المصنع بل يشمل أيضاً قاعات الإنتاج والغرف التقنية والمناطق اللوجستية.",
       },
       {
         q: "هل يمكنكم مراعاة سلامة الغذاء أو قواعد النظافة الصارمة؟",
